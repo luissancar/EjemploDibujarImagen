@@ -60,7 +60,9 @@ public class MainActivity extends AppCompatActivity {
             for (int f = 0; f < 10; f++) {
                 canvas.drawCircle(ancho / 3, alto / 4, f * 15, pincel1);
             }
+            //dibuja una línea
             canvas.drawLine(10,10,100,200,pincel1);
+            // dibuja un rectángulo
             pincel1.setColor(Color.GREEN);
             pincel1.setStyle(Paint.Style.FILL); // rellena la figura
             canvas.drawRect(40,500,200,800,pincel1);
